@@ -1,0 +1,19 @@
+{
+  "name": "classroom-mongodb",
+  "version": "1.0.0",
+  "description": "## Operadores",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@types/mongodb": "^4.0.7",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
