@@ -1,0 +1,35 @@
+{
+    "user": [
+        {
+            "_id": { "$oid": "6487bb32f78a16813c8b41aa" },
+            "name": "Dale Sawayn",
+            "email": null,
+            "phone_number": "+5532096117097",
+            "birth_date": { "$date": { "$numberLong": "1656634254688" } },
+            "created_at": { "$date": { "$numberLong": "1666646687908" } },
+            "updated_at": { "$date": { "$numberLong": "1666057595454" } },
+            "address": {
+                "street": "Nolan Port",
+                "number": "655",
+                "city": "East Jaylenchester",
+                "state": "Arkansas",
+                "country": "Faroe Islands",
+                "zip_code": "43680-4186"
+            }
+        }
+    ],
+    "reports": [
+        {
+            "_id": { "$oid": "6487bb32f78a16813c8b41ab" },
+            "user_id": "6487bb32f78a16813c8b41aa",
+            "provider": "google",
+            "service_id": "play-store-lite",
+            "subscription_id": "1ca93f33-54a3-4aa6-8bd0-ccd9be588525",
+            "created_at": { "$date": { "$numberLong": "1661200206118" } },
+            "updated_at": { "$date": { "$numberLong": "1666407007005" } },
+            "email": null,
+            "phone_number": "+5532096117097",
+            "type": "unsubscribe"
+        }
+    ]
+}

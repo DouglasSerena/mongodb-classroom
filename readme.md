@@ -6,14 +6,14 @@ O MongoDB oferece uma variedade de operadores para realizar diversas operações
 
 ### Operadores de Comparação
 
-- `$eq`: Igual a
-- `$ne`: Diferente de
-- `$gt`: Maior que
-- `$gte`: Maior ou igual a
-- `$lt`: Menor que
-- `$lte`: Menor ou igual a
-- `$in`: Pertence a um conjunto
-- `$nin`: Não pertence a um conjunto
+- `$eq`: Igual a =
+- `$ne`: Diferente de !=
+- `$gt`: Maior que >
+- `$gte`: Maior ou igual a >=
+- `$lt`: Menor que <
+- `$lte`: Menor ou igual a <=
+- `$in`: Pertence a um conjunto in()
+- `$nin`: Não pertence a um conjunto not in()
 
 ### Operadores Lógicos
 
@@ -70,11 +70,11 @@ db.collection.aggregate([
 
 ```sql
 SELECT * FROM collection
-WHERE quantity > 250
+WHERE quantity >= 250
 ```
 
 ```js
-db.collection.aggregate([{ $match: { quantity: { $gt: 250 } } }]);
+db.collection.aggregate([{ $match: { quantity: { $gte: 250 } } }]);
 ```
 
 ### $project

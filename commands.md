@@ -132,3 +132,14 @@ main()
   .then(() => process.exit(0))
   .catch(() => process.exit(1));
 ```
+
+```js
+[
+  {
+    $match: { // WHERE provider = 'apple' and type = 'subscribe'
+      provider: "apple",
+      type: "subscribe"
+    }
+  }
+]
+```
